@@ -1,0 +1,19 @@
+{
+	"platforms"	:	[
+		{
+			"platform"	:	"wiz-simple",
+			"homeId"	:	12345,
+			"devices"	:	[
+				{
+					"name"		:	"Bedroom 1",
+					"ip"		:	"10.0.1.4",
+					"features"	:	{
+						"dimmable"		:	true,
+						"color"			:	true,
+						"temperature"	:	true
+					}
+				}
+			]
+		}
+	]
+}

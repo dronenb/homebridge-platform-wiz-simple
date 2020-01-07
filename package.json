@@ -1,0 +1,32 @@
+{
+  "name": "homebridge-platform-wiz-simple",
+  "version": "1.0.0",
+  "description": "Simple UDP control of WiZ connected bulbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dronenb/homebridge-platform-wiz-simple.git"
+  },
+  "author": "Benjamin Dronen",
+  "license": "Apache-2.0",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.29",
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/dronenb/homebridge-platform-wiz-simple/issues"
+  },
+  "homepage": "https://github.com/dronenb/homebridge-platform-wiz-simple#readme",
+  "dependencies": {
+    "color-convert": "^2.0.1",
+    "mired": "0.0.0",
+    "oui": "^10.0.36",
+    "ping": "^0.2.2"
+  }
+}
